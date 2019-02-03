@@ -8,18 +8,7 @@ bot.on('message', message => {
 
 
     if(splitMessage[0] === '!reglement') {
-        var reglement = new Discord.RichEmbed()
-            .setTitle("Règlements")
-            .setDescription("Voici les règlements")
-            .addField("abc", "abc", true)
-            .setColor("0x42D321")
-            .setFooter("kiwi")
-
-
-
-
-
-        message.channel.sendEmbed(reglement);
+        message.reply("test")
         }
 
 
