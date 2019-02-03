@@ -7,7 +7,17 @@ bot.on('message', message => {
 
 
     if (message.content.startsWith("!reglement")) {
-        message.channel.send("test");
+        var reglement = new Discord.RichEmbed()
+            .setTitle("Règlements !")
+            .setDescription("Voici les règlements" + member.user.username)
+            .addField("**abc: **", "abc", false)
+            .setColor("0xE61919")
+            .setFooter("Kiwi")
+    
+
+        message.channel.sendEmbed(reglement);
+
+        message.delete
   }
 
 
