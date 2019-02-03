@@ -15,7 +15,7 @@ bot.on('message', message => {
             .setFooter("Kiwi")
     
 
-        member.sendEmbed(reglement);
+        message.channel.sendEmbed(reglement);
 
         message.delete
   }
