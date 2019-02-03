@@ -28,4 +28,4 @@ bot.on('message', message => {
 
 });
 
-bot.login("NTQxNjA4NDIyNTg0NDgzODQx.Dzh7xg.HA_DA_2VKsv5rvKvcpeCxKtBsi4");
+bot.login(process.env.token);
