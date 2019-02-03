@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const prefix = '!';
 
 bot.on('message', message => {
 
@@ -8,9 +7,7 @@ bot.on('message', message => {
 
 
     if (message.content.startsWith("!reglement")) {
-
-    
-        message.delete
+        message.channel.send("test");
   }
 
 
